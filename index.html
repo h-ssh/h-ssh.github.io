@@ -1,312 +1,62 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Cyber Blog</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="./src/output.css" />
-    <script defer src="script.js"></script>
-  </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>h-ssh</title>
 
-  <!-- <header class="bg-gray-900"> -->
-  <header class="bg-white">
-    <nav
-      class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
-      aria-label="Global"
-    >
-      <div class="flex lg:flex-1">
-        <a href="#" class="-m-1.5 p-1.5">
-          <span class="sr-only">hssh</span>
-          <img
-            class="h-8 w-auto rounded-md"
-            src="/assets/favicon_io/favicon-32x32.png"
-          />
-        </a>
-      </div>
-      <div class="flex lg:hidden">
-        <button
-          type="button"
-          class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-        >
-          <span class="sr-only">Open main menu</span>
-          <svg
-            class="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            aria-hidden="true"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            />
-          </svg>
-        </button>
-      </div>
-      <div class="hidden lg:flex lg:gap-x-12">
-        <div class="relative">
-          <button
-            type="button"
-            class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900"
-            aria-expanded="false"
-          >
-            Blog
-            <svg
-              class="h-5 w-5 flex-none text-gray-400"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </button>
-        </div>
+</head>
+<body>
+    <h1>h-ssh</h1>
 
-        <a
-          href="https://h-ssh.github.io/blog/"
-          class="text-sm font-semibold leading-6 text-gray-900"
-          >Blog</a
-        >
-
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-          >Music</a
-        >
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-          >Youtube</a
-        >
-      </div>
-      <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-          >Contact <span aria-hidden="true">&rarr;</span></a
-        >
-      </div>
-    </nav>
-    <!-- Mobile menu, show/hide based on menu open state. -->
-    <div class="lg:hidden" role="dialog" aria-modal="true">
-      <!-- Background backdrop, show/hide based on slide-over state. -->
-      <div class="fixed inset-0 z-10"></div>
-      <div
-        class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
-      >
-        <div class="flex items-center justify-between">
-          <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">hssh</span>
-            <img
-              class="h-8 w-auto"
-              src="/assets/favicon_io/favicon-32x32.png"
-            />
-          </a>
-          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-            <span class="sr-only">Close menu</span>
-            <svg
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </button>
-        </div>
-        <div class="mt-6 flow-root">
-          <div class="-my-6 divide-y divide-gray-500/10">
-            <div class="space-y-2 py-6">
-              <div class="-mx-3">
-                <button
-                  type="button"
-                  class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  aria-controls="disclosure-1"
-                  aria-expanded="false"
-                >
-                  Cybersecurity
-                  <!--
-                    Expand/collapse icon, toggle classes based on menu open state.
-  
-                    Open: "rotate-180", Closed: ""
-                  -->
-                  <svg
-                    class="h-5 w-5 flex-none"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </button>
-                <!-- 'Product' sub-menu, show/hide based on menu state. -->
-                <div class="mt-2 space-y-2" id="disclosure-1">
-                  <a
-                    href="#"
-                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                    >HackTheBox</a
-                  >
-                </div>
-              </div>
-              <a
-                href="./music.html"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >Music</a
-              >
-              <a
-                href="#"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >Youtube</a
-              >
-            </div>
-            <div class="py-6">
-              <a
-                href="#"
-                class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >Contact</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <body>
-    <!-- Wrapper -->
-    <div id="wrapper">
-      <!-- Intro -->
-      <section id="intro">
-        <h1>
-          <a
-            class="typewrite"
-            data-period="2000"
-            data-type='[ "hello" ,"welcome to my website", "pls enjoy", "sudo ./malware.sh", ":3 ^_^", "","","",""]'
-          >
-            <span class="wrap"></span>
-          </a>
-        </h1>
-
-        <p>i like cyber security and ethical hacking</p>
-
-        <p>i play some music too :) <a href="music.html">take a look</a></p>
-      </section>
-
-      <!-- Projects -->
-      <section id="projects">
-        <div id="fyp">
-          <div class="hidden" class="collapsible" onclick="toggleContent(this)">
-            <h3>Social Media Android Hacking</h3>
-          </div>
-          <div class="content">
-            <p>
-              Analysis of potential privacy risks stemming user information
-              being collected and sent to back-end servers of applications
-              without explicit consent.
-            </p>
-            <p>Goal: highlight privacy concerns to users.</p>
-          </div>
-        </div>
-
-        <div id="future">
-          <h3>general shenanigans</h3>
-          <div class="content">
-            <ul>
-              <li>bug bounty</li>
-              <li>electronics</li>
-              <li>
-                Raspberry Pi Pico
-                <ul>
-                  <li>did a bita soldering</li>
-                  <li>script on pico</li>
-                  <li>bim bim bam bam</li>
-                </ul>
-              </li>
-              <li>rust</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <div class="bg-white py-24 sm:py-32">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto max-w-2xl lg:mx-0">
-          <h2
-            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
-          >
-            From the blog
-          </h2>
-          <p class="mt-2 text-lg leading-8 text-gray-600">
-            Learn how to grow your business with our expert advice.
-          </p>
-        </div>
-        <div
-          class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
-        >
-          <article class="flex max-w-xl flex-col items-start justify-between">
-            <div class="flex items-center gap-x-4 text-xs">
-              <time datetime="2020-03-16" class="text-gray-500"
-                >Mar 16, 2020</time
-              >
-              <a
-                href="#"
-                class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
-                >Marketing</a
-              >
-            </div>
-            <div class="group relative">
-              <h3
-                class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600"
-              >
-                <a href="#">
-                  <span class="absolute inset-0"></span>
-                  Boost your conversion rate
-                </a>
-              </h3>
-              <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
-                Illo sint voluptas. Error voluptates culpa eligendi. Hic vel
-                totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed
-                exercitationem placeat consectetur nulla deserunt vel. Iusto
-                corrupti dicta.
-              </p>
-            </div>
-            <div class="relative mt-8 flex items-center gap-x-4">
-              <div class="text-sm leading-6">
-                <p class="font-semibold text-gray-900">
-                  <a href="#">
-                    <span class="absolute inset-0"></span>
-                    Michael Foster
-                  </a>
-                </p>
-                <p class="text-gray-600">Co-Founder / CTO</p>
-              </div>
-            </div>
-          </article>
-
-          <!-- More posts... -->
-        </div>
-      </div>
-    </div>
-  </body>
-
-  <!-- Footer -->
-  <footer id="footer">
-    <div class="inner">
-      <h4><strong>updated 07/2024</strong></h4>
-    </div>
-  </footer>
+    <h3 id="typing"></h3>
+    
+</body>
 </html>
+
+<script>
+    const texts = [
+      ":(){:|:&}:;",
+      ":/      . . .",
+      ":3",
+      "Quit. Don't quit...                Noodles, don't noodles",
+    ];
+
+    // Function to get a random piece of text from the array
+    function getRandomText() {
+      const randomIndex = Math.floor(Math.random() * texts.length);
+      return texts[randomIndex];
+    }
+
+    const typingElement = document.getElementById("typing");
+    let index = 0;
+    let isBackspacing = false;
+    let typingSpeed = 100;
+    let backspacingSpeed = 20;
+    let currentText = getRandomText(); // Get a random text initially
+    
+    function type() {
+      if (index < currentText.length && !isBackspacing) {
+        typingElement.textContent += currentText[index];
+        index++;
+        setTimeout(type, typingSpeed);
+      } else if (index === currentText.length && !isBackspacing) {
+        // Start backspacing after typing is done
+        isBackspacing = true;
+        setTimeout(type, 2000); // Wait a bit before starting backspace
+      } else if (isBackspacing) {
+        typingElement.textContent = typingElement.textContent.slice(0, -1);
+        index--;
+        if (index === 0) {
+          // Once backspacing is done, restart the typing process with a new random text
+          isBackspacing = false;
+          currentText = getRandomText(); // Get a new random text
+          setTimeout(type, 500); // Delay before typing starts again
+        } else {
+          setTimeout(type, backspacingSpeed);
+        }
+      }
+    }
+    
+    type();
+  </script>
