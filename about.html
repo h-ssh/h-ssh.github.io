@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mark Lysaght | About</title>
+
+    <script src="assets/js/include.js" defer></script>
+    <script src="assets/js/typer.js" defer></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-800">
+    <div data-include="components/header.html"></div>
+    <section class="py-10">
+      <div class="container mx-auto px-4 max-w-3xl text-center">
+        <h2 class="text-3xl font-bold mb-6">About Me</h2>
+        <p class="text-lg text-gray-600">that's enough about me</p>
+      </div>
+
+      <br />
+      <hr />
+      <br />
+
+      <div class="container mx-auto px-4 max-w-2xl text-center">
+        <h2 class="text-3xl font-bold mb-6">Languages</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-8 justify-items-center">
+          <div id="bash">
+            <img src="assets/svg/bash.svg" width="100px" height="100px" />
+          </div>
+
+          <div id="python">
+            <img src="assets/svg/python.svg" width="50px" height="50px" />
+          </div>
+
+          <div id="cpp">
+            <img src="assets/svg/cpp.svg" width="50px" height="50px" />
+          </div>
+
+          <div id="rust">
+            <img src="assets/svg/Rust.svg" width="50px" height="50px" />
+          </div>
+
+          <div id="react">
+            <img src="assets/svg/React.svg" width="50px" height="50px" />
+          </div>
+        </div>
+
+        <br />
+        <hr />
+        <br />
+      </div>
+    </section>
+    <div data-include="components/footer.html"></div>
+  </body>
+</html>

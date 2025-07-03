@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Portfolio Website",
+    "description": "A personal portfolio built with Tailwind CSS and deployed on GitHub Pages.",
+    "link": "https://github.com/h-ssh/h-ssh.github.io"
+  },
+  {
+    "title": "karv - File carving tool",
+    "description": "I made this tool to learn rust and explore techniques used to carve files. It can carve images from disk images, memory dumps, and raw data streams.",
+    "link": "https://h-ssh.github.io/karv"
+  }
+]

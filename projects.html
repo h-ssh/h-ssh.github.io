@@ -2,34 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Mark Lysaght | Home</title>
+    <title>Your Name | Projects</title>
     <script src="assets/js/include.js" defer></script>
+    <script src="assets/js/render-projects.js" defer></script>
     <script src="assets/js/typer.js" defer></script>
 
-    <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
       body {
         font-family: "Inter", sans-serif;
       }
     </style>
   </head>
-  <body class="bg-white text-gray-800">
+  <body class="bg-white">
     <div data-include="components/header.html"></div>
-
-    <section class="text-center">
-      <div class="container mx-auto px-4">
-        <h2 class="text-4xl py-10 font-extrabold mb-4">
-          <a href="projects.html">Highlights</a>
-        </h2>
-        <hr />
+    <section class="py-10">
+      <div class="container mx-auto px-2">
+        <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+        <div
+          id="project-grid"
+          class="grid md:grid-cols-1 lg:grid-cols-3 gap-8"
+        ></div>
       </div>
     </section>
-
     <div data-include="components/footer.html"></div>
   </body>
 </html>
