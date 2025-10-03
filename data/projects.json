@@ -1,8 +1,8 @@
 [
   {
-    "title": "Portfolio Website",
-    "description": "A personal portfolio built with Tailwind CSS and deployed on GitHub Pages.",
-    "link": "https://github.com/h-ssh/h-ssh.github.io"
+    "title": "Digital Forensics",
+    "description": "I write about digital forensics, incident response, and threat hunting. Check out for articles, tutorials, and resources.",
+    "link": "/articles.html"
   },
   {
     "title": "karv - File carving tool",

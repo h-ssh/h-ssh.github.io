@@ -5,8 +5,10 @@
     <title>Mark Lysaght | Home</title>
     <script src="assets/js/include.js" defer></script>
     <script src="assets/js/typer.js" defer></script>
+    <script src="assets/js/render-recent-articles.js" defer></script>
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
       rel="stylesheet"
@@ -20,16 +22,38 @@
   </head>
   <body class="bg-white text-gray-800">
     <div data-include="components/header.html"></div>
-
     <section class="text-center">
       <div class="container mx-auto px-4">
-        <h2 class="text-4xl py-10 font-extrabold mb-4">
-          <a href="projects.html">Highlights</a>
-        </h2>
-        <hr />
-      </div>
-    </section>
+        <section class="py-10">
+          <h2 class="text-3xl font-bold mb-6">Saoirse don Phalaistín</h2>
+          <div class="grid justify-items-center">
+            <div id="freedom">
+              <img src="assets/svg/saoirse.svg" width="100px" height="100px" />
+            </div>
+          </div>
+        </section>
+        <section class="text-center">
+          <div class="container mx-auto px-4">
+            <section class="py-20">
+              <h2 class="text-3xl font-bold mb-6">
+                i made this to talk about things that interest me
+              </h2>
+              <div class="grid justify-items-center">feel free to ignore</div>
+            </section>
+          </div>
+        </section>
+
+        <section class="py-10">
+          <h2 class="text-3xl font-bold mb-6">Recent Posts</h2>
+          <div id="recent-articles-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Recent articles will be rendered here -->
+          </div>
+        </section>
+
+
 
     <div data-include="components/footer.html"></div>
+
+
   </body>
 </html>

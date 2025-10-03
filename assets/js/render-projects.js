@@ -13,8 +13,12 @@ document.addEventListener("DOMContentLoaded", async () => {
       card.innerHTML = `
         <h3 class="text-xl font-semibold mb-2">${project.title}</h3>
         <p class="text-gray-600 mb-4">${project.description}</p>
-        <a href="${project.link}" class="text-blue-600 hover:underline" target="_blank">View on GitHub →</a>
+        `;
+      if (project.link) {
+        card.innerHTML += `
+        <a href="${project.link}" class="text-blue-600 hover:underline" target="_blank">View here →</a>
       `;
+      }
 
       container.appendChild(card);
     });

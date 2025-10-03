@@ -3,7 +3,7 @@ function startTypingEffect(el, messages) {
   let charIndex = 0;
   let isDeleting = false;
 
-  const typingSpeed = 80;
+  const typingSpeed = 100;
   const deletingSpeed = 20;
   const delayBetween = 2000;
 
