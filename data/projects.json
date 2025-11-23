@@ -1,12 +1,12 @@
 [
   {
-    "title": "Digital Forensics",
-    "description": "I write about digital forensics, incident response, and threat hunting. Check out for articles, tutorials, and resources.",
+    "title": "blog",
+    "description": "random things and stuffs",
     "link": "/articles.html"
   },
   {
-    "title": "karv - File carving tool",
-    "description": "I made this tool to learn rust and explore techniques used to carve files. It can carve images from disk images, memory dumps, and raw data streams.",
+    "title": "karv - file carving tool",
+    "description": "ai slop. prompted it to explore some theoretical concepts. (statistical carving, aho-corasick) gonna look into this for a future project",
     "link": "https://h-ssh.github.io/karv"
   }
 ]

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Mark Lysaght | About</title>
+    <title>About</title>
 
     <script src="assets/js/include.js" defer></script>
     <script src="assets/js/typer.js" defer></script>
@@ -20,27 +20,31 @@
       }
     </style>
   </head>
-  <body class="bg-white text-gray-800">
+  <body class="bg-white text-gray-800 min-h-screen flex flex-col">
     <div data-include="components/header.html"></div>
-    <section class="py-10">
-      <div class="container mx-auto px-4 max-w-3xl text-center">
-        <h2 class="text-3xl font-bold mb-6">About Me</h2>
-        <p class="text-lg text-gray-600">that's enough about me</p>
-      </div>
+    <main class="flex-1">
+      <section class="py-10">
+        <div class="container mx-auto px-4 max-w-3xl text-center">
+          <h2 class="text-3xl font-bold mb-6">About Me</h2>
+          <p class="text-lg text-gray-600">that's enough about me</p>
+        </div>
 
-      <br />
-      <hr />
-      <br />
+        <br />
+        <hr />
+        <br />
 
-      <div class="container mx-auto px-4 max-w-2xl text-center">
-        <h2 class="text-3xl font-bold mb-6">gallery</h2>
-        <div class="grid grid-cols-2 md:grid-cols-5 gap-8 justify-items-center">
-          <!-- <div id="bash">
+        <div class="container mx-auto px-4 max-w-2xl text-center">
+          <h2 class="text-3xl font-bold mb-6">gallery</h2>
+          <div
+            class="grid grid-cols-2 md:grid-cols-5 gap-8 justify-items-center"
+          >
+            <!-- <div id="bash">
             <img src="assets/svg/bash.svg" width="100px" height="100px" />
           </div> -->
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <div data-include="components/footer.html"></div>
   </body>
 </html>

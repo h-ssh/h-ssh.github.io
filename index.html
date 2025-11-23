@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Mark Lysaght | Home</title>
+    <title>Home</title>
     <script src="assets/js/include.js" defer></script>
     <script src="assets/js/typer.js" defer></script>
     <script src="assets/js/render-recent-articles.js" defer></script>
@@ -20,18 +20,11 @@
       }
     </style>
   </head>
-  <body class="bg-white text-gray-800">
+  <body class="bg-white text-gray-800 min-h-screen flex flex-col">
     <div data-include="components/header.html"></div>
+    <main class="flex-1">
     <section class="text-center">
       <div class="container mx-auto px-4">
-        <section class="py-10">
-          <h2 class="text-3xl font-bold mb-6">Saoirse don Phalaistín</h2>
-          <div class="grid justify-items-center">
-            <div id="freedom">
-              <img src="assets/svg/saoirse.svg" width="100px" height="100px" />
-            </div>
-          </div>
-        </section>
         <section class="text-center">
           <div class="container mx-auto px-4">
             <section class="py-20">
@@ -50,9 +43,10 @@
           </div>
         </section>
 
+        
+  </main>
 
-
-    <div data-include="components/footer.html"></div>
+  <div data-include="components/footer.html"></div>
 
 
   </body>
