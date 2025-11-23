@@ -1,4 +1,4 @@
-# fingerprint reader ubuntu 24
+## fingerprint reader ubuntu 24
 
 I have a laptop with a fingerprint scanner. There is no OOB support for Ubuntu 24.04.
 
@@ -6,7 +6,7 @@ This was pissing me off because I had to type "password123" every time I wanted 
 
 Now I can kernel panic at the touch of my finger :D
 
-# how to fix
+#### how to fix
 
 firstly, see that the device is recognised
 
@@ -16,7 +16,9 @@ lsusb
 
 In my case: broadcom 58200
 
-Download drivers for your specific fingerprint reader. Below are drivers for broadcom devices
+Download drivers for your specific fingerprint reader.
+
+Below are drivers for broadcom devices
 
 ```
 sudo apt install libfprint-2-tod1
