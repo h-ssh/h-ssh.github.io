@@ -1,10 +1,18 @@
 [
   {
+    "title": "fingerprint reader ubuntu 24",
+    "description": "",
+    "date_created": "22-11-2025",
+    "estimated_read_time": "1 min read",
+    "link": "article.html?post=ubuntu_fprint",
+    "post_id": 1
+  },
+  {
     "title": "Introduction",
     "description": "",
     "date_created": "03-10-2025",
     "estimated_read_time": "1 min read",
     "link": "article.html?post=intro",
-    "post_id": 1
+    "post_id": 2
   }
 ]
