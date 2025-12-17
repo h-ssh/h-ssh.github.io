@@ -3,10 +3,18 @@
 icon: fas fa-info-circle
 order: 4
 ---
-<!-- 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip } -->
 
-i sometimes use computers. more often i break them
+#### things i like:
+breaking computers
+playing music
+going to the gym
+my cat sometimes (when he doesn't scratch me)
 
-![thm](https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3894373)
+#### things i don't like:
+when people use there instead of their
+my cat sometimes (when he scratches me)
+
+i have been doing a tryhackme streak for a while. this is evidence
+![thm](https://tryhackme-badges.s3.amazonaws.com/h.ssh.png)
+
+that's enough about me... 
