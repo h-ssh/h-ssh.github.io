@@ -14,13 +14,11 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: cyber blog - and maybe other stuffs # the main title
+title: :(){:|:&}:; # the main title
 
-tagline: :(){:|:&}:; # it will display as the subtitle
+tagline: general shitposts about cyber and other things i find interesting... feel free to ignore
 
-description: >- # used by seo meta and the atom feed
-  i made this to shitpost about things i find interesting
-  feel free to ignore
+description:
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
