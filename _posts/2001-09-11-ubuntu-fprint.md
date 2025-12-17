@@ -17,7 +17,7 @@ Now I can kernel panic at the touch of my finger :D
 
 firstly, see that the device is recognised
 
-```
+```bash
 lsusb
 ```
 
@@ -27,7 +27,7 @@ Download drivers for your specific fingerprint reader.
 
 Below are drivers for broadcom devices
 
-```
+```bash
 sudo apt install libfprint-2-tod1
 wget https://packages.broadcom.com/artifactory/dell-controlvault-drivers/brcm_linux_fp_6.3.299_6.3.040.0.tgz
 tar xzvf brcm_linux_fp_6.1.155_6.1.028.0.tgz
@@ -38,7 +38,7 @@ fprintd-enroll (hangs first time to update drivers ~3-5 mins)
 
 run once more after times out
 
-```
+```bash
 fprintd-enroll
 ```
 
