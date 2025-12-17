@@ -4,7 +4,7 @@ title: "add fingerprint support on ubuntu 24.04"
 date: 2001-9-11
 categories: hardware
 description: "ubuntu fingerprint support"
-tags: [featured, ubuntu, hardware]
+tags: [ubuntu, hardware]
 ---
 
 I have a laptop with a fingerprint scanner. There is no OOB support for Ubuntu 24.04.
