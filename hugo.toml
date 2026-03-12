@@ -1,0 +1,6 @@
+baseURL = 'https://h-ssh.github.io/'
+languageCode = 'en-us'
+title = 'Blog'
+theme= 'terminal'
+
+[params]
