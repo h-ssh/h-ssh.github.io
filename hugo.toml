@@ -1,6 +1,8 @@
 baseURL = 'https://h-ssh.github.io/'
 languageCode = 'en-us'
-title = 'Blog'
-theme= 'terminal'
+title = 'h-ssh cybersecuritystuffs shitposting'
+theme = 'paper'
 
 [params]
+  color = 'wheat'  # or 'wheat' or leave default
+  dateFormat = ""  # Empty date format = no dates shown

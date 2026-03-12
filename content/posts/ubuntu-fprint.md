@@ -1,5 +1,6 @@
 ---
 title: "add fingerprint support on ubuntu 24.04"
+date: "2026-02-04"
 ---
 
 I have a laptop with a fingerprint scanner. There is no OOB support for Ubuntu 24.04.
