@@ -8,6 +8,8 @@ This was pissing me off because I had to type "password123" every time I wanted 
 
 Now I can kernel panic at the touch of my finger :D
 
+<!--more-->
+
 #### how to fix
 
 firstly, see that the device is recognised
